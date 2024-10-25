@@ -1,0 +1,33 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+  max-width: 800px;
+  height: 190px;
+  background-color: blue;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-green{
+  display: none;
+}
+
+
+@media screen and (min-width: 580px){
+  .box-green{
+    display: flex;
+    background-color: green;
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .box-white{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+  }
+}

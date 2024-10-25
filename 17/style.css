@@ -1,0 +1,27 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* MOBILE FIRST */
+
+.containter{
+  padding: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  border: 2px solid blue;
+
+
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 479px){
+  .box{
+    border-radius: 50%;
+  }
+}

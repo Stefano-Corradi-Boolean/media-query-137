@@ -1,0 +1,28 @@
+/* DESKOTP FIRST */
+/* body{
+  background-color: blue;
+}
+ */
+
+/* sotto i 480px il bg diventa rosso */
+
+/* @media screen and (max-width:480px){
+  body{
+    background-color: red;
+  }
+} */
+
+
+/* MOBILE FIRST */
+
+body{
+  background-color: red;
+}
+
+/* sopra i 480 px il bg diventa blue */
+
+@media screen and (min-width:481px){
+  body{
+    background-color: blue;
+  }
+}
